@@ -1,7 +1,7 @@
-var app = angular.module("myapp",[]);
+var app = angular.module("myApp",[]);
 app.controller ("FirstCtrl",[
-  "$scope"
+  "$scope",
   function FirstCtrl (scope){
-     scope.firstName = "name";
+     scope.firstName = "Enter Name";
   }
 ]);
